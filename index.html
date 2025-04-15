@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/estilos.css v">
+    <title>Prueba</title>
+</head>
+
+<body>
+    <div class="foteer" id="Contacto">
+        <div class="info">
+            <h1></h1>
+            <h2>Ventas:</h2>
+            <h3></h3>
+
+            <h2>Soporte y atención a clientes:</h2>
+            <h3></h3>
+        </div>
+
+        <form action="procesar_formulario.php" method="POST">
+            <div class="form-group">
+                <div class="input-container">
+                    <label>Nombre:</label>
+                    <input type="text" name="nombre" required>
+                </div>
+                <div class="input-container">
+                    <label>Apellido:</label>
+                    <input type="text" name="apellido" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-container-2">
+                    <label>Email:</label>
+                    <input type="email" name="email" required>
+                </div>
+
+                <div class="input-container-2">
+                    <label>Teléfono:</label>
+                    <input type="text" name="telefono" required>
+                </div>
+            </div>
+            <label>Requerimientos:</label>
+            <textarea name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <div class="footer-bottom">
+            <div class="footer-links">
+                <a href="/index.html">Inicio</a>
+                <a href="views/Nosotros.html">Nosotros</a>
+                <a href="views/ASPEL.html">ASPEL</a>
+                <a href="views/Servicios.html">Servicios</a>
+            </div>
+
+            <div class="footer-copy">
+                <p>Copyright © 2025, PC Om</p>
+            </div>
+
+            <div class="footer-privacy">
+                <a href="views/Aviso_de_Privacidad.html">Aviso de Privacidad</a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+
+</html>
